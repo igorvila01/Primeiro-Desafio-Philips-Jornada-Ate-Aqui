@@ -2,23 +2,35 @@ body {
   background: #fcfcfc;
 }
 
+.photo{
+  border: 1px solid #505050;
+  border-radius: 50px;
+}
+
 #title, .subtitle, .post_title{
-  color: blue;
+  color: black;
 }
 
 .post_title{
   font-size: 16px;
   font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .post {
   background: #DCDCDC;
   padding: 15px;
-  border: 2px solid #505050;
+  border: 3px solid #505050;
   border-radius: 5px;
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .img_post {
-  border-radius: 5px;
+  margin-bottom: 15px
+}
+
+.post_content{
+  margin: 0;
+  margin-bottom: 15px;
 }
